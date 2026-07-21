@@ -10,3 +10,8 @@ int main()
    std::cout << "Hello world!";
    return 0;
 }
+
+## copy initialization
+//int width = 5;
+## direct initi.
+//int width ( 5 );
