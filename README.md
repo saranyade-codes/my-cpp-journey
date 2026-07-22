@@ -15,3 +15,9 @@ int main()
 //int width = 5;
 ## direct initi.
 //int width ( 5 );
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+int x { 0 };    // direct-list-initialization with initial value 0
+std::cout << x; // we're using that 0 value here
+
+int x {};      // value initialization
+std::cin >> x; // we're immediately replacing that value so an explicit 0 would be meaningless
