@@ -18,3 +18,21 @@ int main() {
     
     return 0;
 }
+
+~~~~
+
+#include <iostream>
+#include <string>
+
+class Student {
+private:
+    std::string name;
+    int age;
+
+public:
+    Student(std::string n, int a) : name(n), age(a) {}
+
+    void display() {
+        std::cout << name << "\n";
+    }
+};
